@@ -11,7 +11,7 @@ contract Election {
   // fetch candidate
   mapping(uint => Candidate) public candidates;
   // store candidates count
-  uint candidatesCount;
+  uint public candidatesCount;
 
   // constructor
   function Election() public {
